@@ -18,6 +18,7 @@
  .container{
     width: 1200px;
     margin: 0 auto;
+    padding-top: 30px;
  }
  button{
     border-radius: 20px;
@@ -36,9 +37,6 @@
     height:50px;
     width: 100%;
     line-height: 50px;
-    position: relative;
-    top:30px;
-   
  }
  .logo,.lista-navigazione,.button.small {
     display: inline-block;
@@ -46,10 +44,8 @@
 }
 
  .lista-navigazione{
-     position:absolute;
-     left: 30%;
-     top:10px;
- }
+     margin-left: 200px;
+} 
 
  .lista-navigazione ul{
      list-style: none;
@@ -68,8 +64,7 @@
 
 
  button.small{
-     position: absolute;
-     right:0;
+     margin-left: 200px;
      height: 35px; 
      padding: 0 15px; 
      font-size: 15px;
@@ -79,7 +74,7 @@
  .contenitore-jumbo{
      width: 100%;
      text-align:center;
-     margin-top: 100px;
+     margin-top: 50px;
  }
 
 
@@ -104,17 +99,14 @@
  .jumbo-buttons{
      height: 500px;
      margin-top: 30px;
-     position: relative;
+     text-align: center;
  }
 
  .button.mac{
      background-color: white;
-     position: absolute;
      font-size: 16px;
      padding:0 16px;
-     height:40px ;
-     left:35%;
-
+     height:40px;
  }
 
  .button.mac>span{
@@ -123,15 +115,14 @@
  .button.browser{
     background-color: black;
     color: white;
-    position: absolute;
     font-size: 16px;
     padding:0 16px;
     height:40px ;
-    right:30%;
+    margin-left:10px;
 }
 
 .float-left{
-    width: 70%;
+    width: 60%;
     float: left;
 }
 .float-left>img{
@@ -153,6 +144,19 @@
     margin-top: 15px;
     font-size: 15px;
     width: 250px;
+}
+
+.ondina{
+    
+    opacity: 0.2;
+    transform: rotate(360deg);
+    height: 106px;
+    
+}
+
+.sfondo-grigio{
+    background-color: #cccccc;
+    height: 500px;
 }
 
 
