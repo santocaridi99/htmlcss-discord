@@ -133,6 +133,7 @@
 .float-right{
     width: 30%;
     padding-top: 20px;
+    padding-left: 60px;
     float: left;
 }
 
@@ -149,8 +150,7 @@
 .ondina{
     
     opacity: 0.2;
-    transform: rotate(360deg);
-    height: 106px;
+    height: 105px;
     
 }
 
@@ -158,6 +158,13 @@
     background-color: #cccccc;
     height: 500px;
 }
+
+
+.row.row-due>.float-right{
+    padding-left: 100px;
+}
+
+
 
 
 
