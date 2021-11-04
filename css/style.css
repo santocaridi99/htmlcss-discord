@@ -7,10 +7,10 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
  }
 
- .sfondo{
+ .sfondo-uno{
      
      height:500px;
-     background:url("../img/jumbo.png") no-repeat;
+     background:url("../img/jumbo.png") no-repeat 50% 50%;
      background-size:cover;
      
  }
@@ -19,6 +19,18 @@
     width: 1200px;
     margin: 0 auto;
  }
+ button{
+    border-radius: 20px;
+    border: 0; 
+    
+ }
+
+ .row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* ---------------------------- */
 
  .navigation{
     height:50px;
@@ -53,11 +65,7 @@
      padding: 0 20px
  }
 
- button{
-    border-radius: 20px;
-    border: 0; 
-    
- }
+
 
  button.small{
      position: absolute;
@@ -120,5 +128,35 @@
     padding:0 16px;
     height:40px ;
     right:30%;
-
 }
+
+.float-left{
+    width: 70%;
+    float: left;
+}
+.float-left>img{
+    height: 400px;
+    padding-left:100px;
+}
+
+.float-right{
+    width: 30%;
+    padding-top: 20px;
+    float: left;
+}
+
+.float-right>h2{
+    font-size: 30px;
+}
+
+.float-right>p{
+    margin-top: 15px;
+    font-size: 15px;
+    width: 250px;
+}
+
+
+
+
+
+
