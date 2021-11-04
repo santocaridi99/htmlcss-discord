@@ -149,19 +149,34 @@
 
 .ondina{
     
-    opacity: 0.2;
+
     height: 105px;
     
 }
 
 .sfondo-grigio{
-    background-color: #cccccc;
+    background-color: #e4e4e4;
     height: 500px;
 }
 
 
 .row.row-due>.float-right{
     padding-left: 100px;
+}
+
+.contenitore-ondina{
+    background-color: #cccccc;
+    height: 68px;
+    z-index:1001;
+    
+    
+
+}
+
+.ondina.rotata>svg{
+    transform: rotate(180deg);
+    
+    
 }
 
 
