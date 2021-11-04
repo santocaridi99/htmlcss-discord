@@ -31,6 +31,15 @@
     display: table;
     clear: both;
 }
+.sfondo-grigio{
+    background-color: #e4e4e4;
+    height: 500px;
+}
+.sfondo-grigio-grande{
+    background-color:#e4e4e4 ;
+}
+
+
 /* ---------------------------- */
 
  .navigation{
@@ -154,10 +163,6 @@
     
 }
 
-.sfondo-grigio{
-    background-color: #e4e4e4;
-    height: 500px;
-}
 
 
 .row.row-due>.float-right{
@@ -175,9 +180,50 @@
 
 .ondina.rotata>svg{
     transform: rotate(180deg);
-    
-    
 }
+
+
+.textbox>h1{
+    text-align:center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.textbox>div{
+    text-align:center;
+    margin-top: 5px;
+
+}
+
+.immagine-dispositivi{
+    text-align: center;
+}
+
+.box-stellare{
+    position: relative;
+    height:200px;
+    background: url("../img/stars.svg") no-repeat center;
+    background-position-y: top;
+}
+
+.box-stellare>h2{
+    position:absolute;
+    top:25%;
+    left: 50%;
+    transform:translate(-50% , -50%);
+    font-size: 28px;
+}
+
+.button.mac.viola{
+    position: absolute;
+    background-color: #4038ff9c;
+    color: white;
+    top:55%;
+    left:50%;
+    transform:translate(-50% , -50%);
+}
+
+ 
 
 
 
