@@ -39,7 +39,15 @@
     background-color:#e4e4e4 ;
 }
 
-
+.sfondo-nero{
+    background-color: #111011;
+    height: 500px;
+    color:white;
+    padding-top: 60px;
+}
+.fl{
+    float:left;
+}
 /* ---------------------------- */
 
  .navigation{
@@ -169,6 +177,8 @@
     padding-left: 100px;
 }
 
+
+
 .contenitore-ondina{
     background-color: #cccccc;
     height: 68px;
@@ -223,7 +233,53 @@
     transform:translate(-50% , -50%);
 }
 
- 
+.scritte-purple{
+    color:#8a86fa9c;
+}
+
+.lista.uno>p{
+    margin-top: 20px;
+}
+
+.ita{
+    height:15px;
+}
+
+.special {
+    transform: rotate(180deg);
+    display: inline-block;
+    font-size: larger;
+}
+
+.lista.uno{
+    width:30%;
+    
+}
+.lista.due,.lista.tre,.lista.quattro,.lista.cinque{
+    margin-top:5px;
+    width:15%;
+}
+
+.liste-speciali{
+    list-style: none;
+}
+
+.liste-speciali li:first-of-type{
+    color:#8a86fa9c;
+}
+
+#barra{
+    border: 1px solid #8a86fa9c;
+    margin: 50px 0;
+}
+.button.registrati{
+    float: right;
+    background-color: #8a86fa9c;
+    color: white;
+    padding: 10px;
+}
+
+
 
 
 
